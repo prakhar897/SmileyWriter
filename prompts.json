@@ -1,4 +1,4 @@
 {
   "scrapeBioDataPrompt":"Generate a long User Summary from the below text. Only include information such as name, location, job titles, job companies, experience, skills, proficiencies, educations, certifications, recommendations, publications and awards .: ${userRawData}",
-  "generateMessagePrompt":'Make a personalized message for the given user with the following objective: \n \n \" ${result.promptText} \" \n \n Biodata of a User: \n \n \" ${result.bioData} \"'
+  "generateMessagePrompt":"Make a personalized message for the given user with the following objective: \n \n \" ${result.promptText} \" \n \n Biodata of a User: \n \n \" ${result.bioData} \""
 }
